@@ -1,0 +1,6 @@
+CREATE TABLE drivers (
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    rating FLOAT(3,2) NOT NULL,
+    PRIMARY KEY(id)
+);
